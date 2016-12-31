@@ -1,0 +1,32 @@
+#newGameButtonContainer{
+    text-align:center;
+    padding-bottom:10px;
+}
+
+#gameBoard{
+    background-color: rgb(100, 133, 200);
+    padding-top:4px;
+}
+
+.gameRow{
+    width:100%;
+    text-align: center;
+}
+
+.gamePiece{
+    display:inline-block;
+    height:150px;
+    width:20%;
+    background-image:url('../images/background.jpg');
+}
+
+img{
+    height:100%;
+    width:100%;
+    opacity:0;
+}
+
+.gamePieceImage.flipped {
+    opacity:1;
+}
+
